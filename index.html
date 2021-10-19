@@ -5,7 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
+
+
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,22 +20,51 @@
   </style>
 </head>
 <body>
+  <main>
+    <div class="background_hero-img"> </div>
 
-  Order Summary
+    <section class="section_main">
+      <h1 class="section_main__titulo">
+        Order Summary
+      </h1>
+      <p class="section_main__paragrafo">
+        You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!
+      </p>
+    </section>
 
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
+    <section class="section_plano">
+      <span class="section_plano_info__icon"></span>
+        <div class="section_plano_info__itens">
+          <h2 class="section_plano_info__itens-plano">
+            Annual Plan
+          </h2>
+          <p class="section_plano_info__item-valor">
+            $59.99/year
+          </p>
+        </div>
+      <a href="#" class="section_plano_info__change-plano">
+        Change
+      </a>
+    </section>
 
-  Annual Plan
-  $59.99/year
+    <section class="section_buttons">
+      <button type="button" name="button" class="section_button-proceed">
+        Proceed to Payment
+      </button>
+      <button type="button" name="button" class="section_button-cancel">
+        Cancel Order
+      </button>
+    </section>
+  </main>
 
-  Change
 
-  Proceed to Payment
-  Cancel Order
-  
+
+
+
+
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
