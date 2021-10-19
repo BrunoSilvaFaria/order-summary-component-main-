@@ -2,6 +2,8 @@
 *{
   border: none;
   box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
   margin: 0;
   padding: 0;
   background: none;
@@ -24,18 +26,16 @@ p{
 }
 /* ===MAIN=== */
 main{
-  /* ---Fontes--- */
-  font-family: 'Red Hat Display', sans-serif;
   /* ---Borda--- */
   border-radius: 15px;
   /* ---Tamanho--- */
-  height: 420px;
+  height: 510px;
   max-width: 90%;
   /* ---Espaçamento--- */
   margin: auto;
   margin-top: 10px;
   /* ---Background--- */
-  background: #F5F7FF;
+  background: #fff;
 }
 
 /* ===Background Hero=== */
@@ -81,12 +81,89 @@ main{
 .section_plano{
   /* ---Borda--- */
   border-radius: 10px;
+  /* ---Espaçamento--- */
+  margin: auto;
   /* ---Tamanho--- */
-  height: 50px;
+  height: 70px;
   width: 90%;
   /* ---Display--- */
   display: flex;
+  align-items: center;
   justify-content: space-around;
   /* ---Background--- */
-  background: red;
+  background: #F5F7FF;
 }
+
+  /* ===Section Plano Icon=== */
+  .section_plano_info__icon{
+    /* ---Espaçamento--- */
+    margin: 0 10px 0 10px;
+    /* ---Tamanho--- */
+    height: 40px;
+    width: 40px;
+    /* ---Background--- */
+    background: url("./images/icon-music.svg") no-repeat;
+    background-size: cover;
+  }
+
+  /* ===Section Plano Itens=== */
+  .section_plano_info__itens{
+    /* ---Tamanho--- */
+    height: 40px;
+    width: 150px;
+  }
+    /* ===Section Item Plano / Valor === */
+    .section_plano_info__item-plano, .section_plano_info__item-valor{
+    /* ---Fonte--- */
+        font-size: 0.9em;
+    }
+  /* ===Section Plano Change=== */
+  .section_plano_info__change-plano{
+    /* ---Fonte--- */
+    font-size: 0.9em;
+    font-weight: 700;
+    /* ---Espaçamento--- */
+    margin-right: 15px;
+  }
+
+/* ===Section Buttons=== */
+.section_buttons{
+  /* ---Espaçamento--- */
+  margin: auto;
+  margin-top: 20px;
+  /* ---Tamanho--- */
+  width: 90%;
+}
+
+  /* ===Section Button Proceed=== */
+  .section_button-proceed{
+    /* ---Borda--- */
+    border-radius: 10px;
+    /* ---Fonte--- */
+    color:#F5F7FF;
+    font-size: 1em;
+    font-weight: 900;
+    /* ---Espaçamento--- */
+    margin-bottom: 20px;
+    /* ---Tamanho--- */
+    width: 100%;
+    height: 40px;
+    /* ---Background--- */
+    background: #3829E0;
+    /* ---Cursor--- */
+    cursor: pointer;
+  }
+
+  /* === Section Button Cancel=== */
+  .section_button-cancel{
+    /* ---Fonte--- */
+    color: #7280A7;
+    font-size: 0.9em;
+    font-weight: 700;
+    /* ---Espaçamento--- */
+    margin: auto;
+    /* ---Tamanho--- */
+    width: 100%;
+    /* ---Cursor--- */
+    cursor: pointer;
+  }
