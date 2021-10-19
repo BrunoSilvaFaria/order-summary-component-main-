@@ -1,0 +1,92 @@
+/* ===RESET=== */
+*{
+  border: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+/* ===Body=== */
+body{
+  /* ---Background--- */
+  background-color: #E0E8FF;
+}
+/* ===H=== */
+h1, h2{
+  /* ---Fontes--- */
+  color: #1F2F56;
+  font-weight: 900;
+}
+/* ===P=== */
+p{
+  color: #7280A7;
+  font-size: 1em;
+}
+/* ===MAIN=== */
+main{
+  /* ---Fontes--- */
+  font-family: 'Red Hat Display', sans-serif;
+  /* ---Borda--- */
+  border-radius: 15px;
+  /* ---Tamanho--- */
+  height: 420px;
+  max-width: 90%;
+  /* ---Espaçamento--- */
+  margin: auto;
+  margin-top: 10px;
+  /* ---Background--- */
+  background: #F5F7FF;
+}
+
+/* ===Background Hero=== */
+.background_hero-img{
+  /*   ---Borda--- */
+  border-radius: 15px 15px 0 0;
+  /* ---Tamanho--- */
+  width: 100%;
+  height: 160px;
+  /* ---Espaçamento--- */
+  margin-bottom: 30px;
+  /* ---Background--- */
+  background: url("./images/illustration-hero.svg");
+  background-size: cover;
+}
+
+/* ===Section Main=== */
+.section_main{
+  /* ---Fontes--- */
+  text-align: center;
+  /* ---Tamanho--- */
+  height: 130px;
+  width: 90%;
+}
+  /* ===Section Main Titulo=== */
+  .section_main__titulo{
+    /* ---Espaçamento--- */
+    margin-bottom: 10px;
+  }
+
+  /* ===Section Main Paragrafo=== */
+  .section_main__paragrafo{
+    /* ---Tamanho--- */
+    width: 95%;
+  }
+  /* ===Section Main + Paragrafo=== */
+  .section_main, .section_main__paragrafo{
+    /* ---Espaçamento--- */
+    margin: auto;
+  }
+
+/* ===Section Plano=== */
+.section_plano{
+  /* ---Borda--- */
+  border-radius: 10px;
+  /* ---Tamanho--- */
+  height: 50px;
+  width: 90%;
+  /* ---Display--- */
+  display: flex;
+  justify-content: space-around;
+  /* ---Background--- */
+  background: red;
+}
