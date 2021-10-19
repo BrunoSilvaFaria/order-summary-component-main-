@@ -1,0 +1,62 @@
+Estrutura HTML:
+main
+  div
+    background
+
+  section
+    h1
+    p
+
+  section
+    div
+      span
+        div
+          h2
+          span
+      a
+
+  section
+    button1
+    button2
+
+Classes CSS:
+div
+  background_hero-img
+
+section_main
+  section_main__titulo
+  section_main__paragrafos
+
+section_plano_info
+  section_plano_info__icon
+    section_plano_info__itens
+      section_plano_info__item-plano
+      section_plano_info__item-valor
+    section_plano_info__change-plano
+
+section_buttons
+  section_button-proceed
+  section_button-cancel
+  Dica de Esturar CSS:
+
+1º estrutura estilos:
+  Global (reset, corpo da pagina, estilo padrão para parágrafos, listas, etc.)
+  Cabeçalho da página
+  Estrutura da página
+  Rodapé
+  Estilos de títulos
+  Estilos de texto
+  Navegação
+  Formulários
+  Extras ou Miscelâneas
+
+2º Ordene as propriedades dos seletores
+	.seletor {
+    [fonte e propriedades de texto]
+    [bordas]
+    [espaçamentos]
+    [tamanho]
+    [posicionamento]
+    [display]
+    [plano de fundo]
+	}
