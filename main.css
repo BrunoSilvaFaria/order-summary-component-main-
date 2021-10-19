@@ -28,12 +28,14 @@ p{
 main{
   /* ---Borda--- */
   border-radius: 15px;
+  /* ---Fonte--- */
+  font-size: 0.9em;
   /* ---Tamanho--- */
-  height: 510px;
-  max-width: 90%;
+  height: 490px;
+  max-width: 325px;
   /* ---Espaçamento--- */
   margin: auto;
-  margin-top: 10px;
+  margin-top: 15px;
   /* ---Background--- */
   background: #fff;
 }
@@ -46,7 +48,7 @@ main{
   width: 100%;
   height: 160px;
   /* ---Espaçamento--- */
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   /* ---Background--- */
   background: url("./images/illustration-hero.svg");
   background-size: cover;
@@ -57,7 +59,7 @@ main{
   /* ---Fontes--- */
   text-align: center;
   /* ---Tamanho--- */
-  height: 130px;
+  height: 120px;
   width: 90%;
 }
   /* ===Section Main Titulo=== */
@@ -120,7 +122,7 @@ main{
   /* ===Section Plano Change=== */
   .section_plano_info__change-plano{
     /* ---Fonte--- */
-    font-size: 0.9em;
+    /* font-size: 0.9em; */
     font-weight: 700;
     /* ---Espaçamento--- */
     margin-right: 15px;
@@ -158,7 +160,7 @@ main{
   .section_button-cancel{
     /* ---Fonte--- */
     color: #7280A7;
-    font-size: 0.9em;
+    /* font-size: 0.9em; */
     font-weight: 700;
     /* ---Espaçamento--- */
     margin: auto;
