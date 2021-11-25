@@ -24,6 +24,15 @@ p{
   color: #7280A7;
   font-size: 1em;
 }
+/* === Background Body === */
+.background__body{
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  background: url("/images/pattern-background-mobile.svg");
+  background-size: 100% 150px;
+
+}
 /* ===MAIN=== */
 main{
   /* ---Borda--- */
@@ -169,3 +178,11 @@ main{
     /* ---Cursor--- */
     cursor: pointer;
   }
+
+@media(min-width: 600px){
+  .background__body{
+    height: 250px;
+    background: url("/images/pattern-background-desktop.svg") no-repeat;
+    background-size: 100% 250px;
+  }
+}
