@@ -24,7 +24,7 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 
 ## Demo da minha solução:
 
-- [Solução do desafio Order summary card challenge](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
+- [Solução do desafio Order summary card challenge](https://brunosilvafaria.github.io/order-summary-component-main/).
 
 ## Processo de desenvolvimento:
 
