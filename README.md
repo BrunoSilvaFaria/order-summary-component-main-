@@ -44,7 +44,6 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 
 - Arquitetura BEM
 - Padronização do CSS
-- FlexBox
 - Posicionamento dos elementos
 
 
