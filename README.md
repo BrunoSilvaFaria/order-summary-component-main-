@@ -34,7 +34,6 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 - CSS3
 - Arquitetura BEM
 - Mobile-first
-- [SASS](https://sass-lang.com/) - Pré-processador CSS
 - [Google Fonts](https://fonts.google.com)
 - [Atom](https://atom.io/) - Editor de texto
 - [Adobe Color](https://color.adobe.com/pt/create/color-wheel) - Paleta de cores
@@ -43,7 +42,6 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 
 ### O que eu aprendi:
 
-- SASS
 - Arquitetura BEM
 - Padronização do CSS
 - FlexBox
