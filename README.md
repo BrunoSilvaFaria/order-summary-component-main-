@@ -19,7 +19,7 @@ Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a par
 
 ## Screenshot da minha solução:
 
-![](design/screenshot-solução-desktop.png)
+![](/design/screenshot-solução-desktop.png)
 
 
 ## Demo da minha solução:
