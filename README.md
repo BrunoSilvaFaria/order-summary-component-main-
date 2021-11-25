@@ -15,11 +15,11 @@ Esta é a minha solução para o desafio [Order summary card challenge on Fronte
 ## Desafio
 Foi proposto recriar o seguinte site, fazendo o mais semelhante possível, a partir de um guia de estilo fornecido.
 
-![](/home/aa/Documentos/order-summary-component-main/design/desktop-design.jpg)
+![](/design/desktop-design.jpg)
 
 ## Screenshot da minha solução:
 
-![](/home/aa/Documentos/order-summary-component-main/design/screenshot-solução-desktop.png)
+![](design/screenshot-solução-desktop.png)
 
 
 ## Demo da minha solução:
