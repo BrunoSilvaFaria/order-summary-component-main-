@@ -113,7 +113,7 @@ main{
     height: 40px;
     width: 40px;
     /* ---Background--- */
-    background: url("./images/icon-music.svg") no-repeat;
+    background: url("../images/icon-music.svg") no-repeat;
     background-size: cover;
   }
 
@@ -164,6 +164,9 @@ main{
     /* ---Cursor--- */
     cursor: pointer;
   }
+  .section_button-proceed:hover{
+    background:#7280A7;
+  }
 
   /* === Section Button Cancel=== */
   .section_button-cancel{
@@ -178,11 +181,14 @@ main{
     /* ---Cursor--- */
     cursor: pointer;
   }
+  .section_button-cancel:hover{
+    color:   #1F2F56;
+  }
 
 @media(min-width: 600px){
   .background__body{
     height: 250px;
-    background: url("./images/pattern-background-desktop.svg") no-repeat;
+    background: url("../images/pattern-background-desktop.svg") no-repeat;
     background-size: 100% 250px;
   }
 }
